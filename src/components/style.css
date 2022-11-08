@@ -180,6 +180,7 @@ a:link, a:visited {
     margin-right: 5%;
     margin-left: 5%;
 }
+/* ----------------contact info section --------------------------- */
 .form{
     text-align: center;
     color: white;
@@ -209,7 +210,7 @@ input[type=text] {
     color:white;
     text-align: center;
 }
-
+/* -------------------------- resume section ---------------------------- */
 .mern{
     margin-left: 30%;
     width: 35%;
@@ -244,7 +245,7 @@ input[type=text] {
     padding-left: 5%;
     padding-right: 5%;   
 }
-
+/* ---------------------portfolio section---------------------------- */
 
 .box{
     background: #111845a6;
@@ -291,7 +292,7 @@ input[type=text] {
 @keyframes mymove {
   50% {box-shadow: 10px 20px 20px #EB6937;}
 }
-
+/* -----------------------footer section---------------------- */
 footer {
     
     left: 0;
@@ -349,9 +350,7 @@ footer {
     position: relative;
     margin-bottom: 50px;
 }
-.center-link{
-    text-align: center;
-}
+/* ---------------------Media Queries------------------------------- */
 
 @media screen and (min-width: 1800px) {
     .list {
@@ -366,14 +365,14 @@ footer {
     .long{
         height: 220px !important;
     }
-    .center-link{
+    /* .center-link{
         margin-left: 1%;
-    }
+    } */
 }
-@media screen and (min-width: 1200px) {
-    .center-link{
+@media screen and (max-width: 1200px) {
+    /* .center-link{
         margin-left: 1%;
-    }
+    } */
 }
 
 @media screen and (max-width:990px) {
@@ -418,9 +417,9 @@ footer {
   .links { flex-direction: column;
            align-items: center;      } 
   
-  .spacing2 {flex-direction: column;
+  /* .spacing2 {flex-direction: column;
              align-items: center;
-            } 
+            }  */
              
   .text-on-image{
           margin-left: 27% !important;

@@ -3,7 +3,7 @@
 function Projects() {
   let works = [
     {
-      img:'./img-files/bando.jpg',
+      img: require('./img-files/bando.jpg'),
       alt:"Band Search App",
       link: "https://joseeenrique.github.io/Music-App/",
       name: 'Band Search App',
@@ -71,7 +71,7 @@ function Projects() {
           <a 
           href= {result.gitlink} 
           target="_blank"rel='noreferrer'>
-          <img className = "cat" src="./img-files/icons8-github.gif" alt='github cat'></img></a>
+          <img className = "cat" src= {require("./img-files/icons8-github.gif")} alt='github cat'></img></a>
           
           </div>
          ))}

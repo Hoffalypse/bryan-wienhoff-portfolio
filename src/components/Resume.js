@@ -32,7 +32,7 @@ function Resume() {
                     </div>
                 </div> 
                 </div>
-                <img className="mern"src="./img-files/mern3.png" alt="MERN Stack"></img>
+                <img className="mern"src= {require("./img-files/mern3.png")} alt="MERN Stack"></img>
         </section>
       </main>
     );
