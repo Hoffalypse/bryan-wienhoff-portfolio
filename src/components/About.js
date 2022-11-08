@@ -1,4 +1,4 @@
-// import 'img-files'
+
 function About() {
     return (  
         <main className="bg-img"> 
