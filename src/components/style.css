@@ -149,7 +149,7 @@ a:link, a:visited {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    max-width: 15%;
+    max-width: 12%;
     border-radius: 50%;
     border: 5px solid rgb(50, 29, 168); 
     min-width: 125px;
@@ -221,7 +221,6 @@ input[type=text] {
     min-height: 60px;
     min-width: 100px;
 }
-
 .res{
     color: white;
     font-size: 25px;  

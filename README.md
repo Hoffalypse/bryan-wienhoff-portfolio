@@ -1,6 +1,5 @@
 # Bryan Wienhoff's React Portfolio
-
-This app is a blog site that allows users to make an account, post to the blog and comment on other users posts.
+Welcome to my portfolio! Thank you for your interest in my work. This portfolio was built with React. 
 
 
 ## Table of Contents
@@ -12,14 +11,14 @@ This app is a blog site that allows users to make an account, post to the blog a
 - [Acknowledgments](#Acknowledgments)
 
 ## Installation
-This app is intalled in the Heroku cloud. Try it out at the following link  
-https://stormy-mesa-72944.herokuapp.com/
+My portfolio is deployed on github pages. Follow the link below. 
+https://hoffalypse.github.io/bryan-wienhoff-portfolio/
 
 ## Usage 
-Upon readching the site you will see the homepage with the most recent blog posts posted to the page. Shown below:
+Upon readching the site you will see my homepage with a little bit about me and my life. Shown below:
 
 <p align ="center">
-<img src = "./public/images/home.jpg" alt = "homepage">
+<img src = "./src/components/img-files/home" alt = "homepage">
 </p>
 
 From there user must log in for create a new account. Once on the login page user has the option to log in or click the 'Signup for new Account' button to create a new user. Once logged in access will be given to the rest of the app. From the homepage user can click on any of the shown posts in order to comment on an individual post. The comment page is shown below:
