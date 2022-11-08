@@ -12,19 +12,19 @@ function About() {
                   <span>new</span> <span>career</span> <span>in</span> <span>Web</span> <span>Development.</span></p>
                   <div className="centerpic" >
                   <img 
-                  className="mtn together" 
+                  className="mtn hoff" 
                   alt='me'
                   src={require("./img-files/mtn-B.jpeg")}></img>
                   <img 
-                  className="mtn together" 
+                  className="mtn hoff" 
                   src={require("./img-files/moab.jpeg")} 
                   alt='me'></img>
                   <img 
-                  className="mtn together" 
+                  className="mtn hoff" 
                   src={require("./img-files/poker.jpeg")} 
                   alt='me'></img>
                   <img 
-                  className="mtn together" 
+                  className="mtn hoff" 
                   src={require("./img-files/yelapa.jpeg")} 
                   alt='me'></img>
                 </div>
