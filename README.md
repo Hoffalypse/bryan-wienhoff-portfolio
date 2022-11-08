@@ -18,22 +18,29 @@ https://hoffalypse.github.io/bryan-wienhoff-portfolio/
 Upon readching the site you will see my homepage with a little bit about me and my life. Shown below:
 
 <p align ="center">
-<img src = "./src/components/img-files/home" alt = "homepage">
+<img src = "./src/components/img-files/home.jpg" alt = "homepage">
 </p>
 
-From there user must log in for create a new account. Once on the login page user has the option to log in or click the 'Signup for new Account' button to create a new user. Once logged in access will be given to the rest of the app. From the homepage user can click on any of the shown posts in order to comment on an individual post. The comment page is shown below:
+For navigation use the navbar at the top to see the different pages and links at the bottom to get directed to my Github, Linkedin or Twitter. 
+<br>
+<p align ="center">
+<img src = "./src/components/img-files/header.jpg" alt = "header">
+</p>
+<p align ="center">
+<img src = "./src/components/img-files/footer.jpg" alt = "footer">
+</p>
+<br>
+On the 'My Work' tab you will find links to some of my work. Click the image to go to the functioning site or click the little cat to be taken to the repository containing the code for that app. 
 
 <p align ="center">
-<img src = "./public/images/comment.jpg" alt = "comment-page">
+<img src = "./src/components/img-files/work.jpg" alt = "My Work">
 </p>
-
-User may also choose the 'dashboard' icon at the top of the page if they would like to create their own post. Once clicking the dashboard user will see all of their posts along with a button to create additional posts. This page is shown below. 
+<br>
+On the contact page information must be inclunded in all input fields including, name, email(must be a valid email) and message. Once all fields are filled out the form can be submitted. The final resume page list all of my proficiencies. User will also find a link to download a copy of my up to date resume in .pdf format. 
 
 <p align ="center">
-<img src = "./public/images/dashboard.jpg" alt = "dashboard-page">
+<img src = "./src/components/img-files/prof.jpg" alt = "resume and proficiencies">
 </p>
-
-User can click on any of their previous posts to either update or to delete them. 
 
 ## Contributing 
 Here are the steps in order to contribute to this project.
@@ -48,8 +55,9 @@ NOTE: Be sure to merge the latest from `main` before making a pull request!
 
 ## Technologies
 - JavaScript
-- Node.JS(using Express, sequelize,bcyrpt,connect-session-sequelize, express-handlebars, express-session and dotenv 3rd party modules)
-- SQL database through mysql2 node package module 
+- React
+- CSS
+- Node 
 
 ## Questions
 Please refer any questions or problem issues to bhoff1980@gmail.com.
@@ -60,4 +68,4 @@ Kirtley Adams (Teaching Assistant) <br>
 Dan Kaltenbaugh (Instructor)<br>
 George Yoo (Teaching Assisstant)<br>
 Github Icon from "https://icons8.com/icon/akG4VRhAoSii/github"# test
-# bryan-wienhoff-portfolio
+
