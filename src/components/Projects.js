@@ -10,35 +10,35 @@ function Projects() {
       gitlink: 'https://github.com/joseeenrique/Music-App'
     },
     {
-      img:'./img-files/mythic.jpg',
+      img: require('./img-files/mythic.jpg'),
       alt:"WOW Team Builder",
       link: "https://mythic-plus-team.herokuapp.com/",
       name: 'WOW Team Builder',
       gitlink: ' https://github.com/Hoffalypse/mythic-plus-team'
     },
     {
-      img:'./img-files/weather.jpg',
+      img: require('./img-files/weather.jpg'),
       alt:"Weather App",
       link: "https://hoffalypse.github.io/Current-Weather/",
       name: 'Current Weather',
       gitlink: 'https://github.com/Hoffalypse/Current-Weather'
     },
     {
-      img:'./img-files/comment.jpg',
+      img: require('./img-files/comment.jpg'),
       alt:"Tech Blog",
       link: "https://stormy-mesa-72944.herokuapp.com/",
       name: 'The Tech Blog',
       gitlink: 'https://github.com/Hoffalypse/Tech-Blog'
     },
     {
-      img:'./img-files/03-javascript-homework-demo.png',
+      img: require('./img-files/03-javascript-homework-demo.png'),
       alt:"Password Generator",
       link: "https://hoffalypse.github.io/Password-Generator/",
       name: 'Password Generator',
       gitlink: 'https://github.com/Hoffalypse/Password-Generator'
     },
     {
-      img:'./img-files/notes.png',
+      img: require("./img-files/notes.png"),
       alt:"Note Taker App",
       link: "https://note-taker92380.herokuapp.com/",
       name: 'Note Taker App',
