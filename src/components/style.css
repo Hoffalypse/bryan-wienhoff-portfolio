@@ -225,8 +225,9 @@ input[type=text] {
 .res{
     color: white;
     font-size: 25px;  
-    min-width: 200px;
+    min-width: 500px;
     text-align: left;
+    margin-left:50px;
 }
 .resume{
     font-size: 25px;
@@ -237,6 +238,7 @@ input[type=text] {
     text-align: left;
     color:white;
     font-size: 20px;
+    margin-left: 100px;
 }
 .head{
     text-align: center;
@@ -359,10 +361,12 @@ footer {
     .list {
         text-align: left;
         font-size: 30px;
+        margin-left: 180px;
     }
     .res{
+      
         font-size: 40px;
-        min-width: 200px;
+        min-width: 800px;
     }
   
     .long{
@@ -370,11 +374,7 @@ footer {
     }
   
 }
-/* @media screen and (max-width: 1200px) {
-   .about-me {
-    width: 75%;
-   }
-} */
+
 
 @media screen and (max-width:990px) {
     .mern{
