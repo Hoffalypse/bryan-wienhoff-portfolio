@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bryan-wienhoff-portfolio/static/css/main.60d2f04c.css",
-    "main.js": "/bryan-wienhoff-portfolio/static/js/main.d75d743d.js",
+    "main.css": "/bryan-wienhoff-portfolio/static/css/main.477434b7.css",
+    "main.js": "/bryan-wienhoff-portfolio/static/js/main.c4e44053.js",
     "static/media/mtn-B.jpeg": "/bryan-wienhoff-portfolio/static/media/mtn-B.d0dbe9380f4229a88e8a.jpeg",
     "static/media/yelapa.jpeg": "/bryan-wienhoff-portfolio/static/media/yelapa.bf8201b566d8858c61f8.jpeg",
     "static/media/moab.jpeg": "/bryan-wienhoff-portfolio/static/media/moab.c80da26b2c2b4a428971.jpeg",
@@ -10,16 +10,17 @@
     "static/media/weather.jpg": "/bryan-wienhoff-portfolio/static/media/weather.bdce08b27c173b714332.jpg",
     "static/media/comment.jpg": "/bryan-wienhoff-portfolio/static/media/comment.6e5fe39217a1a62150e7.jpg",
     "static/media/03-javascript-homework-demo.png": "/bryan-wienhoff-portfolio/static/media/03-javascript-homework-demo.4a38b4942b8da373aafd.png",
+    "static/media/mern3.png": "/bryan-wienhoff-portfolio/static/media/mern3.61857440cbcbd022c461.png",
     "static/media/bando.jpg": "/bryan-wienhoff-portfolio/static/media/bando.5f95312e8850b62c5b1f.jpg",
     "static/media/notes.png": "/bryan-wienhoff-portfolio/static/media/notes.6f241301d55cfe5d9742.png",
     "static/media/background.jpg": "/bryan-wienhoff-portfolio/static/media/background.7ec874194cf2fb1435bc.jpg",
     "static/media/icons8-github.gif": "/bryan-wienhoff-portfolio/static/media/icons8-github.7d909b64afc22f8b5ad3.gif",
     "index.html": "/bryan-wienhoff-portfolio/index.html",
-    "main.60d2f04c.css.map": "/bryan-wienhoff-portfolio/static/css/main.60d2f04c.css.map",
-    "main.d75d743d.js.map": "/bryan-wienhoff-portfolio/static/js/main.d75d743d.js.map"
+    "main.477434b7.css.map": "/bryan-wienhoff-portfolio/static/css/main.477434b7.css.map",
+    "main.c4e44053.js.map": "/bryan-wienhoff-portfolio/static/js/main.c4e44053.js.map"
   },
   "entrypoints": [
-    "static/css/main.60d2f04c.css",
-    "static/js/main.d75d743d.js"
+    "static/css/main.477434b7.css",
+    "static/js/main.c4e44053.js"
   ]
 }
