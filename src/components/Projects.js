@@ -42,7 +42,7 @@ function Projects() {
       alt:"Fire-Fighter App",
       link: "https://smokeys-helpers.herokuapp.com/",
       name: 'Fire-fighter App',
-      gitlink: 'https://github.com/Hoffalypse/Note-Taker'
+      gitlink: 'https://github.com/moyuh/fire-fighter-tracking'
     },
   
   ]
