@@ -38,10 +38,10 @@ function Projects() {
       gitlink: 'https://github.com/Hoffalypse/Password-Generator'
     },
     {
-      img: require("./img-files/notes.png"),
-      alt:"Note Taker App",
-      link: "https://note-taker92380.herokuapp.com/",
-      name: 'Note Taker App',
+      img: require("./img-files/smokeys.png"),
+      alt:"Fire-Fighter App",
+      link: "https://smokeys-helpers.herokuapp.com/",
+      name: 'Fire-fighter App',
       gitlink: 'https://github.com/Hoffalypse/Note-Taker'
     },
   
