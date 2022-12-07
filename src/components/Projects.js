@@ -38,7 +38,7 @@ function Projects() {
       gitlink: 'https://github.com/Hoffalypse/Password-Generator'
     },
     {
-      img: require("./img-files/smokeys.png"),
+      img: require("./img-files/smokeys.jpg"),
       alt:"Fire-Fighter App",
       link: "https://smokeys-helpers.herokuapp.com/",
       name: 'Fire-fighter App',
