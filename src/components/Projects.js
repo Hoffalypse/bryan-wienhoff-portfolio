@@ -12,8 +12,17 @@ function Projects() {
       link: "https://mythic-plus-team.herokuapp.com/",
       name: 'WOW Team Builder',
       gitlink: ' https://github.com/Hoffalypse/mythic-plus-team',
-      desc: 'This App creates teams for World of Warcraft Mythic+ battles. <br /> Full Stack application using handlebars on the frontend<br /> Node, Express, MySQL on Backend utilizing multiple APIs', 
+      desc: 'This App creates teams for World of Warcraft Mythic+ battles. <br /> <br/>Full Stack application using handlebars on the frontend<br /> Node, Express, MySQL on Backend utilizing multiple APIs', 
       tool: 'tip2'
+    },
+    {
+      img: require("./img-files/smokeys.jpg"),
+      alt:"Fire-Fighter App",
+      link: "https://smokeys-helpers.herokuapp.com/",
+      name: 'Fire-fighter App',
+      gitlink: 'https://github.com/moyuh/fire-fighter-tracking',
+      desc: 'This App helps Forest Fire Fighters move into the 21st century.<br/>No more carrying around a satchel full of forms and calenders.<br/><br/> Full Stack Application Using React on the Frontend. GraphQL<br/>Node, Express, MongoDB on the Backend. This App utilizes <br/>Calender data, APIs, encrypted login and Geolocation ',
+      tool: 'tip6'
     },
     {
       img: require('./img-files/bando.jpg'),
@@ -21,7 +30,7 @@ function Projects() {
       link: "https://joseeenrique.github.io/Music-App/",
       name: 'Band Search App',
       gitlink: 'https://github.com/joseeenrique/Music-App',
-      desc: 'This App is a one stop shop for all band information.<br /> Frontend application using Javascript, CSS and HTML. <br />Recieves API data from Ticketmsater and theAudioDB ',
+      desc: 'This App is a one stop shop for all band information.<br/><br/> Frontend application using Javascript, CSS and HTML. <br />Recieves API data from Ticketmsater and theAudioDB ',
       tool: 'tip1'
 
     },
@@ -32,7 +41,7 @@ function Projects() {
       link: "https://hoffalypse.github.io/Current-Weather/",
       name: 'Current Weather',
       gitlink: 'https://github.com/Hoffalypse/Current-Weather',
-      desc: 'This add gives Current Weather Data World Wide!<br />Uses Javascript, CSS and HTML for a clean UI/UX<br/> API data from OpenWeatherMap also utilizes local storage',
+      desc: 'This App gives Current Weather Data World Wide!<br/><br/>Uses Javascript, CSS and HTML for a clean UI/UX<br/> Utilizes local storage and API data from OpenWeatherMap',
       tool: 'tip3'
     },
     {
@@ -41,7 +50,7 @@ function Projects() {
       link: "https://stormy-mesa-72944.herokuapp.com/",
       name: 'The Tech Blog',
       gitlink: 'https://github.com/Hoffalypse/Tech-Blog',
-      desc: 'Lost in a field of bugs? The Tech blog has Answers<br/> Full stack application using Javascript on the Frontend <br/>Node, Express and MySQL on the backend <br/>Clean Interface with encrypted logins   ',
+      desc: 'Lost in a field of bugs? The Tech blog has Answers!<br/><br/> Full stack application using Javascript on the Frontend <br/>Node, Express and MySQL on the backend <br/>Clean Interface with encrypted logins   ',
       tool: 'tip4'
     },
     {
@@ -50,19 +59,11 @@ function Projects() {
       link: "https://hoffalypse.github.io/Password-Generator/",
       name: 'Password Generator',
       gitlink: 'https://github.com/Hoffalypse/Password-Generator',
-      desc: 'This is the password desc',
+      desc: 'Need more Creative Passwords? This App will do the work.<br/><br/>Simple Javascript interface allows you to select parameters<br/>and quickly generate a unique random password.',
       tool: 'tip5'
 
     },
-    {
-      img: require("./img-files/smokeys.jpg"),
-      alt:"Fire-Fighter App",
-      link: "https://smokeys-helpers.herokuapp.com/",
-      name: 'Fire-fighter App',
-      gitlink: 'https://github.com/moyuh/fire-fighter-tracking',
-      desc: 'This is the fire fighter desc',
-      tool: 'tip6'
-    },
+  
   
   ]
 
