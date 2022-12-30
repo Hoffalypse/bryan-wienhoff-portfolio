@@ -286,7 +286,7 @@ input[type=text] {
   transition: .3s;
 }
 .cat:hover{
-  max-width: 50px;
+  max-width: 25px;
 }
 .together{
   animation: mymove 5s infinite;
