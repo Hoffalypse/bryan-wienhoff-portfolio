@@ -1,6 +1,17 @@
-import  ClickModal  from './ClickModal';
+import React, { useState, useRef } from 'react';
+import Button from 'react-bootstrap/Button';
+import Overlay from 'react-bootstrap/Overlay';
+import Tooltip from 'react-bootstrap/Tooltip';
+import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
+import { Tooltip } from 'react-tooltip'
+
+// const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+// const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 function Projects() {
+  // const [show, setShow] = useState(false);
+  // const target = useRef(null);
+
   let works = [
     {
       img: require('./img-files/bando.jpg'),
@@ -75,11 +86,14 @@ function Projects() {
           alt={result.alt}></img></a>
           </div>
           <button 
-          onClick={() => ClickModal(result)} 
+          // onClick={() => <ClickModal/>} 
           className = 'text-on-image'
-          
+          data-bs-toggle="tooltip" data-bs-placement="top"
+          data-bs-custom-class="custom-tooltip"
+          data-bs-title="This top tooltip is themed via CSS variables."
           >
           {result.name}</button>
+          
           <a 
           href= {result.gitlink} 
           target="_blank"rel='noreferrer'>
