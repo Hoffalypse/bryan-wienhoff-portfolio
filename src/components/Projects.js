@@ -1,16 +1,9 @@
-import React, { useState, useRef } from 'react';
-import Button from 'react-bootstrap/Button';
-import Overlay from 'react-bootstrap/Overlay';
-import Tooltip from 'react-bootstrap/Tooltip';
-import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
-import { Tooltip } from 'react-tooltip'
 
-// const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-// const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+import { Tooltip } from 'react-tooltip'
+import 'react-tooltip/dist/react-tooltip.css'
+
 
 function Projects() {
-  // const [show, setShow] = useState(false);
-  // const target = useRef(null);
 
   let works = [
     {
@@ -85,14 +78,10 @@ function Projects() {
           
           alt={result.alt}></img></a>
           </div>
-          <button 
-          // onClick={() => <ClickModal/>} 
-          className = 'text-on-image'
-          data-bs-toggle="tooltip" data-bs-placement="top"
-          data-bs-custom-class="custom-tooltip"
-          data-bs-title="This top tooltip is themed via CSS variables."
-          >
-          {result.name}</button>
+          <a className='text-on-image' id="props-basic"> {result.name} </a>
+
+        <Tooltip anchorId="props-basic" content="hello world!" />
+     
           
           <a 
           href= {result.gitlink} 
