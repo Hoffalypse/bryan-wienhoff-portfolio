@@ -1,3 +1,5 @@
+import  ClickModal  from './ClickModal';
+
 function Projects() {
   let works = [
     {
@@ -38,7 +40,7 @@ function Projects() {
       link: "https://hoffalypse.github.io/Password-Generator/",
       name: 'Password Generator',
       gitlink: 'https://github.com/Hoffalypse/Password-Generator',
-      desc: 'This is the fire fighter desc'
+      desc: 'This is the password desc'
 
     },
     {
@@ -51,10 +53,8 @@ function Projects() {
     },
   
   ]
-  function hoverfunct (result) {
-    alert(result.desc)
-  }
- 
+
+
     return (  
       
 <main className="bg-img"> 
@@ -75,7 +75,7 @@ function Projects() {
           alt={result.alt}></img></a>
           </div>
           <button 
-          onClick={hoverfunct(result)} 
+          onClick={() => ClickModal(result)} 
           className = 'text-on-image'
           
           >
