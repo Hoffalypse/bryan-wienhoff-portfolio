@@ -1,5 +1,3 @@
-
-
 function Projects() {
   let works = [
     {
@@ -7,45 +5,55 @@ function Projects() {
       alt:"Band Search App",
       link: "https://joseeenrique.github.io/Music-App/",
       name: 'Band Search App',
-      gitlink: 'https://github.com/joseeenrique/Music-App'
+      gitlink: 'https://github.com/joseeenrique/Music-App',
+      desc: 'This is the fire fighter desc'
     },
     {
       img: require('./img-files/mythic.jpg'),
       alt:"WOW Team Builder",
       link: "https://mythic-plus-team.herokuapp.com/",
       name: 'WOW Team Builder',
-      gitlink: ' https://github.com/Hoffalypse/mythic-plus-team'
+      gitlink: ' https://github.com/Hoffalypse/mythic-plus-team',
+      desc: 'This is the fire fighter desc'
     },
     {
       img: require('./img-files/weather.jpg'),
       alt:"Weather App",
       link: "https://hoffalypse.github.io/Current-Weather/",
       name: 'Current Weather',
-      gitlink: 'https://github.com/Hoffalypse/Current-Weather'
+      gitlink: 'https://github.com/Hoffalypse/Current-Weather',
+      desc: 'This is the fire fighter desc'
     },
     {
       img: require('./img-files/comment.jpg'),
       alt:"Tech Blog",
       link: "https://stormy-mesa-72944.herokuapp.com/",
       name: 'The Tech Blog',
-      gitlink: 'https://github.com/Hoffalypse/Tech-Blog'
+      gitlink: 'https://github.com/Hoffalypse/Tech-Blog',
+      desc: 'This is the fire fighter desc'
     },
     {
       img: require('./img-files/03-javascript-homework-demo.png'),
       alt:"Password Generator",
       link: "https://hoffalypse.github.io/Password-Generator/",
       name: 'Password Generator',
-      gitlink: 'https://github.com/Hoffalypse/Password-Generator'
+      gitlink: 'https://github.com/Hoffalypse/Password-Generator',
+      desc: 'This is the fire fighter desc'
+
     },
     {
       img: require("./img-files/smokeys.jpg"),
       alt:"Fire-Fighter App",
       link: "https://smokeys-helpers.herokuapp.com/",
       name: 'Fire-fighter App',
-      gitlink: 'https://github.com/moyuh/fire-fighter-tracking'
+      gitlink: 'https://github.com/moyuh/fire-fighter-tracking',
+      desc: 'This is the fire fighter desc'
     },
   
   ]
+  function hoverfunct (result) {
+    alert(result.desc)
+  }
  
     return (  
       
@@ -57,16 +65,20 @@ function Projects() {
         { works.map((result) => (
         <div className="col-xxl-4 col-lg-6">
         
-          
+          <div>
           <a href={result.link} 
           target="_blank" rel="noreferrer">
           <img 
           src={result.img} 
           className="box together" 
+          
           alt={result.alt}></img></a>
+          </div>
           <button 
-          onClick={result.link} 
-          className = 'text-on-image'>
+          onClick={hoverfunct(result)} 
+          className = 'text-on-image'
+          
+          >
           {result.name}</button>
           <a 
           href= {result.gitlink} 
