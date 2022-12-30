@@ -278,6 +278,7 @@ input[type=text] {
     margin-top: 15px;
     margin-bottom:15px;
     font-size: 25px;
+    text-decoration: none;
 }
 .cat {
   max-width: 30px;
