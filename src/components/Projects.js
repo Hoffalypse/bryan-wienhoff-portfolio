@@ -7,6 +7,17 @@ function Projects() {
 
   let works = [
     {
+      img: require('./img-files/logo2.png'),
+      alt:"Integral Solutions",
+      link: "https://int-sol-dev.herokuapp.com/",
+      name: 'Integral Solutions',
+      gitlink: 'https://github.com/stevecalla/integral-solutions-dev',
+      desc: 'Enterprise Application built for Integral Solutions,  Robust Employee <br/>and Admin Functionality managing all their bussiness needs.<br/><br/> Built on MERN stack incorporating GrapgQL, Google API, React Bootstrap, <br />JWT Decode and Full Calender NPM.',
+      tool: 'tip5'
+      
+    },
+
+    {
       img: require('./img-files/mythic.jpg'),
       alt:"WOW Team Builder",
       link: "https://mythic-plus-team.herokuapp.com/",
@@ -52,18 +63,8 @@ function Projects() {
       gitlink: 'https://github.com/Hoffalypse/Tech-Blog',
       desc: 'Lost in a field of bugs? The Tech blog has Answers!<br/><br/> Full stack application using Javascript on the Frontend <br/>Node, Express and MySQL on the backend <br/>Clean Interface with encrypted logins   ',
       tool: 'tip4'
-    },
-    {
-      img: require('./img-files/03-javascript-homework-demo.png'),
-      alt:"Password Generator",
-      link: "https://hoffalypse.github.io/Password-Generator/",
-      name: 'Password Generator',
-      gitlink: 'https://github.com/Hoffalypse/Password-Generator',
-      desc: 'Need more Creative Passwords? This App will do the work.<br/><br/>Simple Javascript interface allows you to select parameters<br/>and quickly generate a unique random password.',
-      tool: 'tip5'
+    }
 
-    },
-  
   
   ]
 
