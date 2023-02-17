@@ -6,7 +6,7 @@ import Resume from './Resume';
 
 
 
-
+//consider changing pagination to react router for URL changes
 
 const Navigation =   (props) => {
   

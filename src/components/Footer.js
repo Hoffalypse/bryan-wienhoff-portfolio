@@ -1,5 +1,6 @@
 function Footer() {
     return (  
+        //adapt animations for smaller screens
     <footer>
         <h2 className="center-link">My Links </h2>    
             <ul className="spacing2">
