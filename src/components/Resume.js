@@ -3,7 +3,7 @@ function Resume() {
         <main className="bg-img"> 
         
             <section className="pads">
-                <p className="middle resume">Download My <a  href= "./img-files/Current-Resume-2022.pdf" download= "Resume-2022.pdf">Resume</a></p>
+                <p className="middle resume">Download My <a  href= "./img-files/2023-Resume-Update.docx" download= "Resume-2022.pdf">Resume</a></p>
                  <div className="container">
                   <div className="row">
                     <div className= "col-md-12 col-lg-6"> 
