@@ -15,7 +15,7 @@ function Resume() {
                         <li className="list">jQuery</li>
                         <li className="list">Responsive Design</li>
                         <li className="list">React</li>
-                        <li className="list">Bootstrap</li>
+                        <li className="list">Redux</li>
                     </ul>
                     </div>
                     <div className= "col-md-12 col-lg-6"> 
