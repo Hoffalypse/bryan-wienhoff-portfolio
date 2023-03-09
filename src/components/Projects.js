@@ -17,6 +17,15 @@ function Projects() {
       
     },
     {
+      img: require('./img-files/earth-port.png'),
+      alt:"EathShip Packaging",
+      link: "https://earthship-packaging.herokuapp.com/",
+      name: 'Earthship Packaging',
+      gitlink: 'https://github.com/Hoffalypse/earthship-packaging-dev',
+      desc: 'Full Stack E-Commerce Application built for Earthship Packaging LLC<br/><br/> Frontend built with React and Redux <br/>Node, Express and MongoDB on the backend <br/>Full admin Login capability managing all users, products and orders.<br/> Checkout through Paypal',
+      tool: 'tip4'
+    },
+    {
       img: require('./img-files/mythic.jpg'),
       alt:"WOW Team Builder",
       link: "https://mythic-plus-team.herokuapp.com/",
@@ -54,15 +63,7 @@ function Projects() {
       desc: 'This App gives Current Weather Data World Wide!<br/><br/>Uses Javascript, CSS and HTML for a clean UI/UX<br/> Utilizes local storage and API data from OpenWeatherMap',
       tool: 'tip3'
     },
-    {
-      img: require('./img-files/comment.jpg'),
-      alt:"Tech Blog",
-      link: "https://stormy-mesa-72944.herokuapp.com/",
-      name: 'The Tech Blog',
-      gitlink: 'https://github.com/Hoffalypse/Tech-Blog',
-      desc: 'Lost in a field of bugs? The Tech blog has Answers!<br/><br/> Full stack application using Javascript on the Frontend <br/>Node, Express and MySQL on the backend <br/>Clean Interface with encrypted logins   ',
-      tool: 'tip4'
-    }
+ 
    
   
   
