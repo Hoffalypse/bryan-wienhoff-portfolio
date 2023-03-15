@@ -14,7 +14,7 @@ function Resume() {
                         <li className="list">JavaScript</li>
                         <li className="list">jQuery</li>
                         <li className="list">Responsive Design</li>
-                        <li className="list">React</li>
+                        <li className="list">React and React Native</li>
                         <li className="list">Redux</li>
                     </ul>
                     </div>
