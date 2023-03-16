@@ -8,8 +8,8 @@ function About() {
               
                   <p className="about-me"><span>I</span> <span>was</span> <span>born</span> <span>and</span> <span>raised</span> <span>in</span> <span>Illinois</span> <span>where</span> <span>I</span> <span>completed</span> <span>my</span> <span>degree</span> <span>in</span> <span>International</span> <span>Relations</span> <span>at</span> <span>SIU</span> <span>Carbondale</span> <span>(Go Salukis!). &nbsp;</span> 
                   <span>I</span> <span>enjoy</span> <span>all</span> <span>things</span> <span>outdoors:</span> <span>hiking,</span> <span>climbing,</span> <span>rafting,</span> <span>fishing</span> <span>and</span> <span>off-roading. &nbsp;</span>
-                  <span>My</span> <span>background</span> <span>is</span> <span>in</span> <span>the</span> <span>Financial</span> <span>Services</span> <span>and</span> <span>Casino</span> <span>Entertainment</span> <span>Industries.</span> <span>I</span> <span>also</span> <span>spent</span> <span>many</span> <span>years</span> <span>as</span> <span>a</span> <span>professional</span> <span>poker</span> <span>player. &nbsp;</span><span>Software</span> <span>development</span> <span>has</span> <span>been &nbsp;</span> 
-                  <span>my</span> <span>passion</span> <span>for</span> <span>many</span> <span>years.</span></p>
+                  <span>My</span> <span>background</span> <span>is</span> <span>in</span> <span>the</span> <span>Financial</span> <span>Services</span> <span>Industy.</span> <span>I</span> <span>also</span> <span>spent</span> <span>many</span> <span>years</span> <span>as</span> <span>a</span> <span>professional</span> <span>poker</span> <span>player. &nbsp;</span><span>Software</span> <span>development</span> <span>has</span> <span>been&nbsp;</span> 
+                  <span>my</span> <span>passion</span> <span>for</span> <span>many</span> <span>years</span> <span>and have</span> <span>turned</span> <span>my full</span><span>attention</span> <span>to pursuing it.</span></p>
                   <div className="centerpic" >
                   <img 
                   className="mtn hoff" 
