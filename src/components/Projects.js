@@ -40,7 +40,7 @@ function Projects() {
       link: "https://smokeys-helpers.herokuapp.com/",
       name: 'Fire-fighter App',
       gitlink: 'https://github.com/moyuh/fire-fighter-tracking',
-      desc: 'This App helps Forest Fire Fighters move into the 21st century.<br/>No more carrying around a satchel full of forms and calenders.<br/><br/> Full Stack Application Using React on the Frontend. GraphQL<br/>Node, Express, MongoDB on the Backend. This App utilizes <br/>Calender data, APIs, encrypted login and Geolocation ',
+      desc: 'This App helps Forest Fire Fighters move into the 21st century.<br/>No more carrying around a satchel full of forms and calendars.<br/><br/> Full Stack Application Using React on the Frontend. GraphQL<br/>Node, Express, MongoDB on the Backend. This App utilizes <br/>Calender data, APIs, encrypted login and Geolocation ',
       tool: 'tip6'
     },
     {
@@ -55,12 +55,12 @@ function Projects() {
     },
    
     {
-      img: require('./img-files/weather.jpg'),
-      alt:"Weather App",
-      link: "https://hoffalypse.github.io/Current-Weather/",
-      name: 'Current Weather',
-      gitlink: 'https://github.com/Hoffalypse/Current-Weather',
-      desc: 'This App gives Current Weather Data World Wide!<br/><br/>Uses Javascript, CSS and HTML for a clean UI/UX<br/> Utilizes local storage and API data from OpenWeatherMap',
+      img: require('./img-files/Hoffai.png'),
+      alt:"AI Photo Sharing",
+      link: "https://www.hoffai.com",
+      name: 'AI Photo Generator',
+      gitlink: 'https://github.com/Hoffalypse/AI-Photo-Booth',
+      desc: 'I developed this app due to a fascination with AI technology<br/> and wanting to gain some experience using OpenAI APIs.<br/><br/> App utilizes MERN stack with Tailwind CSS and Vite.<br/> Image storage is done on Cloudinary and deployed using<br/> Render and Hostinger',
       tool: 'tip3'
     },
  
