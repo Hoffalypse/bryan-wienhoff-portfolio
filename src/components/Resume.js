@@ -10,7 +10,7 @@ function Resume() {
                     <ul>
                         <p className="res">Front-end Proficiencies</p> 
                         <li className="list">HTML</li>
-                        <li className="list">CSS</li>
+                        <li className="list">CSS Tailwind</li>
                         <li className="list">JavaScript</li>
                         <li className="list">jQuery</li>
                         <li className="list">Responsive Design</li>
