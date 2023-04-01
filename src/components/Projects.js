@@ -26,7 +26,7 @@ function Projects() {
       tool: 'tip4'
     },
     {
-      img: require('./img-files/mythic.jpg'),
+      img: require('./img-files/mplusteams.gif'),
       alt:"WOW Team Builder",
       link: "https://mythic-plus-team.herokuapp.com/",
       name: 'WOW Team Builder',
@@ -35,7 +35,7 @@ function Projects() {
       tool: 'tip2'
     },
     {
-      img: require("./img-files/smokeys.jpg"),
+      img: require("./img-files/smokey.png"),
       alt:"Fire-Fighter App",
       link: "https://smokeys-helpers.herokuapp.com/",
       name: 'Fire-fighter App',
