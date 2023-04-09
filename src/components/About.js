@@ -1,7 +1,7 @@
 
 function About() {
     return (  
-        <main className="bg-img"> 
+        <main className="bg-img added"> 
         
            <article>
               <h2 id="about"> My Story </h2>
